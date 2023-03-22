@@ -63,3 +63,57 @@ email_address= 'bobs@email.com'
 phone = '555-777-9999'
 
 print(f'User Profile: Full Name {first_name} {last_name} Contact Information {email_address} {phone}')
+
+
+#Task 2: List of Dictionaries
+    #Use a list to store the dictionary of family members 
+    #Each index of the list storing its own dictionary
+    #Each dictionary will contain First name, Last name, Relation
+    #Write a funtion to iterate over the list of dictionaries 
+    #Print to console First Name & Relation of each person in the list
+
+family_members = [
+    {
+        "first_name": "Josie",
+        "last_name": "Overholt",
+        "relationship": "Mom"
+    },
+    {
+        "first_name": "Sara",
+        "last_name": "Overholt",
+        "relationship": "Sister"
+    },
+    {
+        "first_name": "Christian",
+        "last_name": "Cristodero",
+        "relationship": "Nephew"
+    },
+    {
+        "first_name": "Joseph",
+        "last_name": "Cristodero",
+        "relationship": "Nephew"
+    },
+    {
+        "first_name": "Vaida",
+        "last_name": "Cristodero",
+        "relationship": "Niece"
+    }
+]
+
+print(len(family_members))
+
+print(family_members[0]['first_name'])
+print(family_members[0]['relationship'])
+
+print(family_members[1]['first_name'])
+print(family_members[1]['relationship'])
+
+print(family_members[2]['first_name'])
+print(family_members[2]['relationship'])
+
+print(family_members[3]['first_name'])
+print(family_members[3]['relationship'])
+
+print(family_members[4]['first_name'])
+print(family_members[4]['relationship'])
+
